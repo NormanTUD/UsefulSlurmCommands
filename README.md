@@ -15,6 +15,8 @@
 | `get_job_name $JOBID`     | Shows the name of the job `$JOBID`                                                              | ![Screenshot](get_job_name.png?raw=true "get_job_name")          |
 | `slurminator`             | A whiptail GUI to handle slurm-jobs                                                             | ![Screenshot](slurminator.png?raw=true "slurminator")            |
 
+# The installation is quite easy.
+
 ```
 cp slurm_commands.sh ~/.slurm_commands.sh
 echo "source ~/.slurm_commands.sh" >> "~/.$(basename $SHELL)rc"
